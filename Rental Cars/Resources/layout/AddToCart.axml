@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/AddToCartTextId"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="My Cart"
+        android:background="#ffffff"
+        android:textColor="@color/material_blue_grey_950" />
+    <SearchView
+        android:id="@+id/AddToCartSearchId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#47494c"
+        android:queryHint="Search..." />
+    <ListView
+        android:background="#06d6cb"
+        android:id="@+id/AddToCartListId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/ProceedId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Proceed to Information" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/BackToId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Back to Main Page" />
+</LinearLayout>

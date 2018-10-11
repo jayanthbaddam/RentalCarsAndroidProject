@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:layout_marginTop="1dp"
+        android:id="@+id/LoginHeadingId"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/material_grey_900"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/LoginImageId"
+        android:src="@drawable/signin" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/userId"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Username" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/passId"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Password" />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/LoginId"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerLinkId"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="Not Register? Click here to register!"
+        android:textAlignment="center"
+        android:textColor="@color/material_grey_850" />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:id="@+id/RegisterHeadingId"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:text="ADD RENTAL CARS"
+        android:textColor="@color/material_grey_900"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/AdminCarModelNameId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Car Model Name" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/AdminCarDoorsId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Number of Doors" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/AdminCarMileage"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Car Mileage" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/AdminCarImageId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Car Image Id" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/AdminNumberOfCarsId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Number of Cars" />
+    <Spinner
+        android:layout_marginTop="5dp"
+        android:id="@+id/AdminCarTypeId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+        android:background="#c5ccd8" />
+    <Button
+        android:layout_marginTop="1dp"
+        android:id="@+id/AddId"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Add" />
+    <Button
+        android:layout_marginTop="1dp"
+        android:id="@+id/DeleteId"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:text="Delete" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="15px"
+    p1:minHeight="100px"
+    p1:layout_width="wrap_content"
+    p1:layout_height="50dp"
+    p1:id="@+id/tabRelative"
+    p1:gravity="center">
+    <ImageView
+        p1:layout_width="50dp"
+        p1:layout_height="25dp"
+        p1:id="@+id/tabImage"
+        p1:layout_centerHorizontal="true"
+        p1:scaleType="centerInside"
+        p1:layout_marginTop="4dp"
+        p1:paddingTop="1dp" />
+    <TextView
+        p1:text="Menu"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/tabText"
+        p1:textColor="@color/material_deep_teal_500"
+        p1:layout_centerHorizontal="true"
+        p1:layout_below="@+id/tabImage"
+        p1:paddingTop="2dp"
+        p1:paddingBottom="3dp" />
+</RelativeLayout>

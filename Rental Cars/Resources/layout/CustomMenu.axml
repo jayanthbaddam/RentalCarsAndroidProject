@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_marginStart="2dp"
+        android:id="@+id/MenuImageId"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/abc_ab_share_pack_mtrl_alpha" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/MenuTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_toRightOf="@id/MenuImageId" />
+</RelativeLayout>

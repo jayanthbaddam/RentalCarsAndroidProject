@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/PopUpFirstNameId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="First Name" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/PopUpLastNameId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Last Name" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/PopUpEmailId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Email" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/PopUpUsernameId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Username" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="#c5ccd8"
+        android:id="@+id/PopUpPasswordId"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:textColorHint="#9fa3a8"
+        android:textColor="#151616"
+        android:gravity="center"
+        android:hint="Password" />
+</LinearLayout>
